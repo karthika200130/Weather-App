@@ -1,0 +1,170 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#FEF9D9;
+}
+
+  
+.container{
+ width: 350px;
+ background-color: #00e9e8;
+ background-image: linear-gradient(149deg, #00e9e8 0%, #9a80d0 50%, #3118ef 100%);
+ 
+ border-radius: 8px;
+ padding: 20px;
+box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px ;
+
+ }
+ .input-container{
+
+  width: 100% ; 
+  border: 3px solid #3bc5ca ;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+   background-color:white; 
+ 
+ 
+ }
+.cityinput{
+
+  flex: 1;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  padding: 15px;
+  margin-left: 5px;
+}
+  
+.img-size{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-top: 5px;
+ 
+ cursor: pointer;
+ margin-right: 5px;
+ 
+}
+.img{
+  margin-top: 10px;
+  text-align: center;
+}
+.sun-img{
+  height: 200px;
+  width: 200px;  
+  align-items: center;
+ 
+}
+.temp,.location,.country{
+  text-align: center;
+  margin-top: 5px;
+ 
+  
+}
+.temp{
+  font-size: 20px;
+  font-weight: bold;
+}
+.location{
+  color:#FEF9D9 ;
+  font-weight: 500px;
+  font-size: 30px;
+}
+.country{
+  font-size: 18px;
+  color: #FFF7D1;
+}
+.cord{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+} 
+ .element{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+} 
+.cord div span:nth-child(2){
+  font-weight:bold;  
+  padding-top: 5px;
+  color: #FAF7F0;
+ }
+ .wind{
+  width: 50px;
+  height: 50px;
+ }
+ .data-container{
+  display: flex;
+  justify-content: space-between;
+
+ }
+ .humid{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin:20px 10px;
+  padding: 5px;
+ }
+ .city,.load{
+  color: #666;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+ }
+ @media  (max-width:600px) {
+  
+  
+  .input-container{
+
+    width: 80%; 
+    border: 3px solid #3bc5ca ;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+     background-color:white; 
+     margin-left: 40px;
+     margin-top: 80px;
+     
+   }
+   .cityinput{
+
+    flex: 1;
+    
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 15px;
+    margin-left: 5px;
+    
+  }
+  .element{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 20px;
+  } 
+  .humid{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+    padding: 5px;
+    margin-left: 40px;
+ }
+}
